@@ -1,0 +1,20 @@
+{
+  "version": "2.0.0",
+  "tasks": [{
+    "label": "build",
+    "type": "shell",
+    "command": "g++",
+    "args": [
+      "-std=c++17",
+      "mesh_deformation.cpp",
+      "-IC:/msys64/mingw64/include",
+      "-LC:/msys64/mingw64/lib",
+      "-lglfw3", "-lglew32", "-lopengl32",
+      "-o", "mesh_demo.exe"
+    ],
+    "options": {
+      "cwd": "${workspaceFolder}"
+    },
+    "group": { "kind": "build", "isDefault": true }
+  }]
+}
