@@ -1,6 +1,5 @@
-// IMPORTANT!!!!!!!!!!!!!!!!!!
 // EXECUTION COMMAND: g++ -std=c++17 mesh_deformation.cpp imgui.cpp imgui_draw.cpp imgui_widgets.cpp imgui_tables.cpp imgui_impl_glfw.cpp imgui_impl_opengl3.cpp -IC:/msys64/mingw64/include -LC:/msys64/mingw64/lib -lglfw3 -lglew32 -lopengl32 -lgdi32 -limm32 -o mesh_demo.exe 
-
+// OPEN EXE: .\mesh_demo.exe 
 #include <GL/glew.h>
 #include <GLFW/glfw3.h>
 #include <glm/glm.hpp>
